@@ -1,6 +1,6 @@
 ---
 title: 'Podcastに出させていただきました'
-date: 2024-06-14
+date: 2025-06-14
 permalink: /posts/2025/06/podcast_you_know_me/
 tags:
   - Podcast
