@@ -28,8 +28,11 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
-      {% endif %}
+  <li style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+    <i class="fas fa-fw fa-building" aria-hidden="true" style="margin-top: 4px; margin-right: 8px;"></i>
+    <span style="line-height: 1.4;">{{ author.employer }}</span>
+  </li>
+{% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
