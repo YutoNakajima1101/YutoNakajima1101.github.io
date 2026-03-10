@@ -1,0 +1,9 @@
+---
+title: '2024冬の留学報告書'
+date: 2024-12-02
+permalink: /posts/2025/12/2024-winter/
+tags:
+  - FOS奨学生レポート
+---
+
+ご支援いただいている船井情報科学振興財団さまのホームページにて、[2024年冬の留学報告書](https://admin.funaifoundation.jp/upload/funai/user/snvx95p4itce.pdf)を公開しました。
