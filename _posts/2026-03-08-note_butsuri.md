@@ -6,4 +6,4 @@ tags:
   - 雑文
 ---
 
-[noteを更新しました。](https://note.com/hadron_kyoto/n/n6255f5737f72?sub_rt=share_sb)
+[noteを更新](https://note.com/hadron_kyoto/n/n6255f5737f72?sub_rt=share_sb)しました。
