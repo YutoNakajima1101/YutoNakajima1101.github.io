@@ -1,5 +1,5 @@
 ---
-title: 'Podcastに出させていただきました'
+title: 'Podcastに出ました'
 date: 2025-06-14
 permalink: /posts/2025/06/podcast_you_know_me/
 tags:
