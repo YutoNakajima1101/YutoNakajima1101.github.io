@@ -1,0 +1,9 @@
+---
+title: '2025夏の留学報告書'
+date: 2025-06-14
+permalink: /posts/2025/12/2025-winter/
+tags:
+  - FOS奨学生レポート
+---
+
+ご支援いただいている船井情報科学振興財団さまのホームページにて、[2025年夏の留学報告書](https://admin.funaifoundation.jp/upload/funai/user/i1awo6brxq29.pdf)を公開しました。
