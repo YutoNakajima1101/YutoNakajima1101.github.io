@@ -17,23 +17,24 @@ redirect_from:
 
 <script>
 function filterPosts(tag) {
-  // すべての記事枠を取得
+  // すべての記事の親要素（div）を取得
   var items = document.querySelectorAll('.list__item, .grid__item');
   
   items.forEach(function(item) {
     var article = item.querySelector('article.archive__item');
     if (!article) return;
     
-    // 'All' が選ばれた場合はすべて表示
+    // 記事が持っているタグを取得
+    var postTags = article.getAttribute('data-tags');
+    
     if (tag === 'all') {
       item.style.display = 'block';
     } else {
-      // 記事が持っているタグデータを取得して判定
-      var postTags = article.getAttribute('data-tags');
+      // タグが含まれているか判定
       if (postTags && postTags.split(',').includes(tag)) {
-        item.style.display = 'block'; // 一致すれば表示
+        item.style.display = 'block';
       } else {
-        item.style.display = 'none';  // 一致しなければ隠す
+        item.style.display = 'none';
       }
     }
   });
