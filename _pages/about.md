@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 A second-year Ph.D. student in physics at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
-Interested in and working on condensed matter theory, quantum field theory, anyon dynamics, etc.
 
 Supervisor: Prof. Dr. Hart Goldman
 
@@ -17,7 +16,7 @@ Office: Room 201-03, John T. Tate Hall
 
 Research Interest
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. 
+I am interested in condensed matter theory, quantum field theory, anyon dynamics, etc.
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
