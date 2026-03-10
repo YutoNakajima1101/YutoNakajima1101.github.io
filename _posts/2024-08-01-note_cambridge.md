@@ -6,4 +6,4 @@ tags:
   - 雑文
 ---
 
-[noteを更新](https://note.com/hadron_kyoto/n/nd72b3bea52ab)しました。
+船井財団の夏の交流会でケンブリッジに行ってきたので、[日記風の文章](https://note.com/hadron_kyoto/n/nd72b3bea52ab)を書きました。
