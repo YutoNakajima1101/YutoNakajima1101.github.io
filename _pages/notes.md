@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Notes" # ページの一番上に表示されるタイトル
-permalink: /pdfs/      # このページのURL（https://.../pdfs/ になる）
+permalink: /notes/      # このページのURL（https://.../pdfs/ になる）
 author_profile: true   # 左側のプロフィールを表示する
 ---
 
