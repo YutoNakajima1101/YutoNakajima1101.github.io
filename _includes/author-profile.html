@@ -36,9 +36,7 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-        <li style="display: inline-block; margin-right: 10px;"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right fa-lg" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "" }}</a></li>
-      {% endif %}
+      
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
@@ -77,6 +75,10 @@
       {% if author.zotero %}
         <li><a href="{{ author.zotero }}"><i class="ai ai-zotero ai-fw icon-pad-right"></i>Zotero</a></li>
       {% endif %}
+
+      {% if author.email %}
+  <li style="display: inline-block; margin-right: 10px;"><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+{% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}
