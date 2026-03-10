@@ -7,6 +7,39 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
+<div style="margin-bottom: 20px; padding: 10px; background-color: #f9f9f9; border-radius: 5px;">
+  <strong style="margin-right: 10px;"><i class="fas fa-filter"></i> Filter by Tag:</strong>
+  <a href="#" onclick="filterPosts('all'); return false;" style="margin-right: 15px; font-weight: bold; text-decoration: underline;">All</a>
+  {% for tag in site.tags %}
+    <a href="#" onclick="filterPosts('{{ tag[0] }}'); return false;" style="margin-right: 15px; text-decoration: underline;">{{ tag[0] }}</a>
+  {% endfor %}
+</div>
+
+<script>
+function filterPosts(tag) {
+  // すべての記事枠を取得
+  var items = document.querySelectorAll('.list__item, .grid__item');
+  
+  items.forEach(function(item) {
+    var article = item.querySelector('article.archive__item');
+    if (!article) return;
+    
+    // 'All' が選ばれた場合はすべて表示
+    if (tag === 'all') {
+      item.style.display = 'block';
+    } else {
+      // 記事が持っているタグデータを取得して判定
+      var postTags = article.getAttribute('data-tags');
+      if (postTags && postTags.split(',').includes(tag)) {
+        item.style.display = 'block'; // 一致すれば表示
+      } else {
+        item.style.display = 'none';  // 一致しなければ隠す
+      }
+    }
+  });
+}
+</script>
+
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
