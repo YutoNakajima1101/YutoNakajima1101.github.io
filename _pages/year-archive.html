@@ -19,74 +19,6 @@ redirect_from:
   {% endfor %}
 </div>
 
-<script>
-// ページが完全に読み込まれてからエンジンを起動する安全設計
-document.addEventListener("DOMContentLoaded", function() {
-  
-  // 「tag-filter-btn」という名前がついたボタンをすべて探し出す
-  var buttons = document.querySelectorAll('.tag-filter-btn');
-  
-  buttons.forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-      // 🚨ここが重要：クリックした時に /# に飛ぶ（デフォルトの動作）を強制ストップする
-      e.preventDefault(); 
-      
-      // クリックされたボタンの data-tag の中身を読み取る
-      var tag = this.getAttribute('data-tag');
-      console.log("クリックされたタグ: " + tag);
-      
-      var items = document.querySelectorAll('.list__item, .grid__item');
-      
-      items.forEach(function(item) {
-        var article = item.querySelector('article');
-        if (!article) return;
-        
-        var postTags = article.getAttribute('data-tags');
-        var tagsArray = postTags ? postTags.split(',').map(function(t) { return t.trim(); }) : [];
-        
-        if (tag === 'all') {
-          item.style.display = 'block';
-        } else {
-          if (tagsArray.includes(tag)) {
-            item.style.display = 'block';
-          } else {
-            item.style.display = 'none';
-          }
-        }
-      });
-    });
-  });
-});
-</script>
-
-<!--
-<script>
-function filterPosts(tag) {
-  // すべての記事の親要素（div）を取得
-  var items = document.querySelectorAll('.list__item, .grid__item');
-  
-  items.forEach(function(item) {
-    var article = item.querySelector('article.archive__item');
-    if (!article) return;
-    
-    // 記事が持っているタグを取得
-    var postTags = article.getAttribute('data-tags');
-    
-    if (tag === 'all') {
-      item.style.display = 'block';
-    } else {
-      // タグが含まれているか判定
-      if (postTags && postTags.split(',').includes(tag)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    }
-  });
-}
-</script>
--->
-
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -95,5 +27,31 @@ function filterPosts(tag) {
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html %}
+  <div class="post-item" data-tags="{{ post.tags | join: ',' }}">
+    {% include archive-single.html %}
+  </div>
 {% endfor %}
+
+<script>
+function filterPosts(selectedTag) {
+  // 'post-item' クラスを持つすべての記事要素を取得
+  const posts = document.querySelectorAll('.post-item');
+
+  posts.forEach(post => {
+    if (selectedTag === 'all') {
+      // 'All' が選ばれた場合はすべての記事を表示
+      post.style.display = 'block';
+    } else {
+      // 記事に付与したタグのデータ(data-tags)を取得し、カンマで分割して配列にする
+      const tags = post.getAttribute('data-tags').split(',');
+
+      // 記事のタグの中に、クリックされたタグが含まれているかチェック
+      if (tags.includes(selectedTag)) {
+        post.style.display = 'block'; // 含まれていれば表示
+      } else {
+        post.style.display = 'none';  // 含まれていなければ非表示
+      }
+    }
+  });
+}
+</script>
