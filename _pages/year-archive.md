@@ -44,7 +44,6 @@ function filterPosts(selectedTag) {
     const year = post.getAttribute('data-year');
 
     if (selectedTag === 'all' || tags.includes(selectedTag)) {
-      // 💡変更点: block ではなく contents に戻すことでデザイン崩れを防止
       post.style.display = 'contents';
       visibleYears.add(year);
     } else {
