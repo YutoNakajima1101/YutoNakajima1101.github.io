@@ -15,7 +15,7 @@ var addressPoints = [
     140.8407024
   ],
   [
-    "Z_N  Structure of Deconfinement Vacuum in SU(N) Yang-Mills Theory<br />Quark-Hadron Seminar; Kyoto University, Japan",
+    "Z_N Structure of Deconfinement Vacuum in SU(N) Yang-Mills Theory<br />Quark-Hadron Seminar; Kyoto University, Japan",
     35.0270467,
     135.7814382
   ],
