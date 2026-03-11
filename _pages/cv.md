@@ -31,13 +31,13 @@ Education
 Internship & Programs
 ======
 * Summer 2022: Summer Research Internship
-  * Japan Atomic Energy Agency Nuclear Science Research Institute (日本原子力研究開発機構　先端基礎研究センター)
+  * Japan Atomic Energy Agency; JAEA（日本原子力研究開発機構）
   * Ibaraki, Japan
   * Theme: Molecular dynamics for many-quark system
   * Supervisor: Prof. Dr. Toshiki Maruyama
 
 * Spring 2023: Short research program "Science Challenge"
-  * Okinawa Institute of Science and Technology (OIST) (沖縄科学技術大学院大学）
+  * Okinawa Institute of Science and Technology; OIST（沖縄科学技術大学院大学）
 
 
 Awards
