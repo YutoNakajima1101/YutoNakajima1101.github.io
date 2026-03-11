@@ -8,4 +8,6 @@ date: 2025-08-01
 location: "Shiga, Japan"
 ---
 
+[More information here](https://cmpss.jp/ss2025/)
+
 Poster (in Japanese) is available [here](files/YNakajima_Natsugaku_Poster.pdf).
