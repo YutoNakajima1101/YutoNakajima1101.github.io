@@ -1,5 +1,5 @@
 ---
-title: "hermodynamics of dilute anyon gases from fusion constraints"
+title: "Thermodynamics of dilute anyon gases from fusion constraints"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-08-20-anyon-thermo
