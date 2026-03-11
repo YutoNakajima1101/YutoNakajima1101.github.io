@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile_new.png" width="200" style="float: left; margin-right: 20px;">
+<img src="/images/profile_new.png" width="200" style="float: right; margin-left: 20px;">
 A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 Supervisor: Prof. Dr. Hart Goldman
@@ -18,11 +18,11 @@ Email: nakaj021_at_umn.edu
 <div style="clear: both;"></div> 
 
 
-
-
 Research Interest
 ======
-I am interested in the exotic quantum phases that emerge in strongly correlated electron systems. My research focuses on uncovering the universal properties of these many-body states, such as topological order and fractionalization, using the framework of topological field theory. By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
+I am interested in the exotic quantum phases that emerge in strongly correlated electron systems. My research focuses on uncovering the universal properties of these many-body states, such as topological order and fractionalization, using the framework of topological field theory. 
+
+By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
 Keywords:
 - Fractional quantum Hall effect
