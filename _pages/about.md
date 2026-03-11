@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile_new.png" width="200" style="float: right; margin-left: 20px;">
+<img src="/images/profile_newnew.jpg" width="200" style="float: right; margin-left: 20px;">
 A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 Supervisor: Prof. Dr. Hart Goldman
