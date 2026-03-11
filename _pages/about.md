@@ -7,25 +7,29 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile_new.png" width="200" style="float: right; margin-left: 20px;">
-A second-year Ph.D. student in physics at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
+<img src="/images/profile_new.png" width="200" style="float: left; margin-right: 20px;">
+A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 Supervisor: Prof. Dr. Hart Goldman
 
 Office: Room 201-03, John T. Tate Hall
-<div style="clear: both;"></div> ```
+
+Email: nakaj021_at_umn.edu
+<div style="clear: both;"></div> 
 
 
 
 
 Research Interest
 ======
-I am interested in condensed matter theory, quantum field theory, anyon dynamics, etc.
+I am interested in the exotic quantum phases that emerge in strongly correlated electron systems. My research focuses on uncovering the universal properties of these many-body states, such as topological order and fractionalization, using the framework of topological field theory. By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+Keywords:
+- Fractional quantum Hall effect
+- Anyon, fractional statistics
+- TQFT (Topological quantum field theory)
+- Modular tensor category
+- Duality of field theory
 
 <!--
 Getting started
