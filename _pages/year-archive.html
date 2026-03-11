@@ -19,7 +19,38 @@ redirect_from:
   {% endfor %}
 </div>
 
+<script>
+function filterPosts(tag) {
+  // ブラウザの裏側（コンソール）に動作状況を出力
+  console.log("クリックされたタグ: " + tag);
+  
+  // 記事のまとまりを取得
+  var items = document.querySelectorAll('.list__item, .grid__item');
+  console.log("見つかった記事数: " + items.length);
+  
+  items.forEach(function(item) {
+    var article = item.querySelector('article');
+    if (!article) return;
+    
+    // 記事に埋め込んだ data-tags を読み取る
+    var postTags = article.getAttribute('data-tags');
+    var tagsArray = postTags ? postTags.split(',').map(function(t) { return t.trim(); }) : [];
+    
+    // 表示・非表示の切り替え
+    if (tag === 'all') {
+      item.style.display = 'block';
+    } else {
+      if (tagsArray.includes(tag)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    }
+  });
+}
+</script>
 
+<!--
 <script>
 function filterPosts(tag) {
   // すべての記事の親要素（div）を取得
@@ -45,6 +76,7 @@ function filterPosts(tag) {
   });
 }
 </script>
+-->
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
