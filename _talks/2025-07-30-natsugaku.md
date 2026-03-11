@@ -1,5 +1,5 @@
 ---
-title: "モジュラーテンソル圏から 希薄エニオン気体の統計力学へ (From the modular tensor category to the themodynamics of dilute anyon gases)"
+title: "From the modular tensor category to the themodynamics of dilute anyon gases（モジュラーテンソル圏から 希薄エニオン気体の統計力学へ）"
 collection: talks
 type: "Talk & Poster"
 permalink: /talks/2025-07-30-natsugaku
