@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blogy"
+title: "Bloga"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
@@ -11,12 +11,12 @@ redirect_from:
   <p>各種資料や<a href="https://note.com/hadron_kyoto">note記事</a>、留学報告書などの更新を投稿します。内容はもっぱら日本語です。</p>
 </div>
 
-<div style="margin-bottom: 20px; padding: 10px; background-color: #rrggbbaa; border-radius: 5px;">
-  <strong style="margin-right: 10px;"><i class="fas fa-filter"></i> Filter by Tag:</strong>
-  <a href="#" onclick="filterPosts('all'); return false;" style="margin-right: 15px; font-weight: bold; text-decoration: underline;">All</a>
-  {% for tag in site.tags %}
-    <a href="#" onclick="filterPosts('{{ tag[0] }}'); return false;" style="margin-right: 15px; text-decoration: underline;">{{ tag[0] }}</a>
-  {% endfor %}
+<div style="margin-bottom: 20px; padding: 10px; background-color: #f8f9fa; border-radius: 5px;">
+  <strong style="margin-right: 10px;"><i class="fas fa-filter"></i> Filter by Tag:</strong>
+  <a href="#" data-tag="all" onclick="filterPosts(this.getAttribute('data-tag')); return false;" style="margin-right: 15px; font-weight: bold; text-decoration: underline;">All</a>
+  {% for tag in site.tags %}
+    <a href="#" data-tag="{{ tag | escape }}" onclick="filterPosts(this.getAttribute('data-tag')); return false;" style="margin-right: 15px; text-decoration: underline;">{{ tag }}</a>
+  {% endfor %}
 </div>
 
 {% include base_path %}
@@ -24,33 +24,40 @@ redirect_from:
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    <h2 id="{{ year | slugify }}" class="archive__subtitle year-heading" data-year="{{ year }}">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  <div class="post-item" data-tags="{{ post.tags | join: ',' }}">
+  <div class="post-item" data-tags="{{ post.tags | join: ',' }}" data-year="{{ year }}">
     {% include archive-single.html %}
   </div>
 {% endfor %}
 
 <script>
 function filterPosts(selectedTag) {
-  // 'post-item' クラスを持つすべての記事要素を取得
   const posts = document.querySelectorAll('.post-item');
+  const visibleYears = new Set(); // 表示される年を記録するリスト
 
+  // 1. まず記事の表示/非表示を切り替える
   posts.forEach(post => {
-    if (selectedTag === 'all') {
-      // 'All' が選ばれた場合はすべての記事を表示
-      post.style.display = 'block';
-    } else {
-      // 記事に付与したタグのデータ(data-tags)を取得し、カンマで分割して配列にする
-      const tags = post.getAttribute('data-tags').split(',');
+    // タグの前後に意図しないスペースが入っていても正常に動くように処理 (.trim)
+    const tags = post.getAttribute('data-tags').split(',').map(t => t.trim());
+    const year = post.getAttribute('data-year');
 
-      // 記事のタグの中に、クリックされたタグが含まれているかチェック
-      if (tags.includes(selectedTag)) {
-        post.style.display = 'block'; // 含まれていれば表示
-      } else {
-        post.style.display = 'none';  // 含まれていなければ非表示
-      }
+    if (selectedTag === 'all' || tags.includes(selectedTag)) {
+      post.style.display = 'block';
+      visibleYears.add(year); // この年（例:2024）には表示する記事が1つ以上あると記録
+    } else {
+      post.style.display = 'none';
+    }
+  });
+
+  // 2. 記事が1つも表示されていない「年（<h2>）」の見出しを隠す
+  document.querySelectorAll('.year-heading').forEach(heading => {
+    const headingYear = heading.getAttribute('data-year');
+    if (visibleYears.has(headingYear)) {
+      heading.style.display = 'block'; // 記事がある年は見出しを表示
+    } else {
+      heading.style.display = 'none';  // 記事がない年は見出しを非表示
     }
   });
 }
