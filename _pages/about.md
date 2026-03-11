@@ -7,11 +7,15 @@ redirect_from:
   - /about.html
 ---
 
+<img src="/images/face.jpg" width="200" style="float: left; margin-right: 20px;">
 A second-year Ph.D. student in physics at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 Supervisor: Prof. Dr. Hart Goldman
 
 Office: Room 201-03, John T. Tate Hall
+<div style="clear: both;"></div> ```
+
+
 
 
 Research Interest
