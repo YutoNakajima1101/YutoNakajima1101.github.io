@@ -1,5 +1,5 @@
 ---
-title: "From the modular tensor category to the themodynamics of dilute anyon gases（モジュラーテンソル圏から 希薄エニオン気体の統計力学へ）"
+title: "From the modular tensor category to the themodynamics of dilute anyon gases"
 collection: talks
 type: "Talk & Poster"
 permalink: /talks/2025-07-30-natsugaku
@@ -8,6 +8,7 @@ date: 2025-08-01
 location: "Shiga, Japan"
 ---
 
+In Japanese (the original title: モジュラーテンソル圏から 希薄エニオン気体の統計力学へ)
 [More information here](https://cmpss.jp/ss2025/)
 
 Poster (in Japanese) is available [here](files/YNakajima_Natsugaku_Poster.pdf).
