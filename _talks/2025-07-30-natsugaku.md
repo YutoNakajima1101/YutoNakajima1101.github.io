@@ -12,4 +12,4 @@ location: "Shiga, Japan"
 
 In Japanese (the original title: モジュラーテンソル圏から 希薄エニオン気体の統計力学へ)
 
-Poster (in Japanese) is available [here](files/YNakajima_Natsugaku_Poster.pdf).
+Poster (in Japanese) is available [here](/files/YNakajima_Natsugaku_Poster.pdf).
