@@ -20,7 +20,7 @@ Education
 * Yukawa Institute for Theoretical Physics; YITP（京都大学基礎物理学研究所）
   * Apr 2024 – Aug 2024
   * Kyoto, Japan
-  * Enrolled as a master student and **left after five months**
+  * Enrolled as a master student and left after five months
 
 * Kyoto University（京都大学）
   * Apr 2020 – Mar 2024
