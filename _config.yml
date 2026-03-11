@@ -23,7 +23,7 @@ repository               : "yutonakajima1101/yutonakajima1101.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "face.jpg"
   name             : "Yuto Nakajima"
   pronouns         : "he/him"  
   bio              : "PhD student"
