@@ -20,34 +20,43 @@ redirect_from:
 </div>
 
 <script>
-function filterPosts(tag) {
-  // ブラウザの裏側（コンソール）に動作状況を出力
-  console.log("クリックされたタグ: " + tag);
+// ページが完全に読み込まれてからエンジンを起動する安全設計
+document.addEventListener("DOMContentLoaded", function() {
   
-  // 記事のまとまりを取得
-  var items = document.querySelectorAll('.list__item, .grid__item');
-  console.log("見つかった記事数: " + items.length);
+  // 「tag-filter-btn」という名前がついたボタンをすべて探し出す
+  var buttons = document.querySelectorAll('.tag-filter-btn');
   
-  items.forEach(function(item) {
-    var article = item.querySelector('article');
-    if (!article) return;
-    
-    // 記事に埋め込んだ data-tags を読み取る
-    var postTags = article.getAttribute('data-tags');
-    var tagsArray = postTags ? postTags.split(',').map(function(t) { return t.trim(); }) : [];
-    
-    // 表示・非表示の切り替え
-    if (tag === 'all') {
-      item.style.display = 'block';
-    } else {
-      if (tagsArray.includes(tag)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    }
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      // 🚨ここが重要：クリックした時に /# に飛ぶ（デフォルトの動作）を強制ストップする
+      e.preventDefault(); 
+      
+      // クリックされたボタンの data-tag の中身を読み取る
+      var tag = this.getAttribute('data-tag');
+      console.log("クリックされたタグ: " + tag);
+      
+      var items = document.querySelectorAll('.list__item, .grid__item');
+      
+      items.forEach(function(item) {
+        var article = item.querySelector('article');
+        if (!article) return;
+        
+        var postTags = article.getAttribute('data-tags');
+        var tagsArray = postTags ? postTags.split(',').map(function(t) { return t.trim(); }) : [];
+        
+        if (tag === 'all') {
+          item.style.display = 'block';
+        } else {
+          if (tagsArray.includes(tag)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        }
+      });
+    });
   });
-}
+});
 </script>
 
 <!--
