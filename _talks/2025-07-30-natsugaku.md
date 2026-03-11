@@ -9,6 +9,7 @@ location: "Shiga, Japan"
 ---
 
 In Japanese (the original title: モジュラーテンソル圏から 希薄エニオン気体の統計力学へ)
+
 [More information here](https://cmpss.jp/ss2025/)
 
 Poster (in Japanese) is available [here](files/YNakajima_Natsugaku_Poster.pdf).
