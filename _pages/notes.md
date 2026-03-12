@@ -21,7 +21,6 @@ redirect_from:
 
 
 * [パイオン交換ポテンシャル・カイラル凝縮について](/files/note/one_pion_exchange_note.pdf)
-  * 理学部3回生のときの課題演習A6で書いたレポートです。
 
 
 * [Lie微分と共変微分について](/files/note/lie_derivative_note.pdf)
