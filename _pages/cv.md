@@ -28,8 +28,8 @@ Education
   * Bachelor of Science in Physics
 
 * Nara high school（奈良県立奈良高等学校）
- * Apr 2017 - Mar 2020
- * Nara, Japan
+  * Apr 2017 - Mar 2020
+  * Nara, Japan
 
 Internship & Programs
 ======
