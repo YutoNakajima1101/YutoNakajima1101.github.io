@@ -20,16 +20,17 @@ Email: nakaj021_at_umn.edu
 
 Research Interest
 ======
-I am interested in the exotic quantum phases that emerge in strongly correlated electron systems. My research focuses on uncovering the universal properties of these many-body states, such as topological order and fractionalization, using the framework of topological field theory. 
+I am interested in the exotic quantum phases that emerge in **strongly correlated electron systems**. 
+My research focuses on uncovering the universal properties of these many-body states, such as **topological order** and **symmetry fractionalization**, using the framework of topological field theory. 
 
 By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
 Keywords:
-- Fractional quantum Hall effect
+**- Fractional quantum Hall effect
 - Anyon, fractional statistics
 - TQFT (Topological quantum field theory)
 - Modular tensor category
-- Duality of field theory
+- Duality of field theory**
 
 <!--
 Getting started
