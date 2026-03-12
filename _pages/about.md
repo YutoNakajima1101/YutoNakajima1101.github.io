@@ -26,11 +26,11 @@ My research focuses on uncovering the universal properties of these many-body st
 By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
 Keywords:
-**- Fractional quantum Hall effect
-- Anyon, fractional statistics
-- TQFT (Topological quantum field theory)
-- Modular tensor category
-- Duality of field theory**
+- **Fractional quantum Hall effect**
+- **Anyon, fractional statistics**
+- **Topological quantum field theory (TQFT)**
+- **Modular tensor category**
+- **Duality** of field theory
 
 <!--
 Getting started
