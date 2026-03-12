@@ -10,11 +10,11 @@ redirect_from:
 <img src="/images/profile_newnew.jpg" width="200" style="float: right; margin-left: 20px;">
 A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
-Supervisor: Prof. Dr. Hart Goldman
+**Supervisor:** Prof. Dr. Hart Goldman
 
-Office: Room 201-03, John T. Tate Hall
+**Office:** Room 201-03, John T. Tate Hall
 
-Email: nakaj021_at_umn.edu
+**Email:** nakaj021_at_umn.edu
 <div style="clear: both;"></div> 
 
 
