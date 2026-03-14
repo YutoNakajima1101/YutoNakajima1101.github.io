@@ -20,6 +20,10 @@ redirect_from:
   * 数式にはパワポ用のTeXアドイン[IguanaTeX](https://github.com/Jonathan-LeRoux/IguanaTex)を初めて使ってみました。TeXClipから解放され、作業が大幅に効率化された気がします。
 
 
+* [ラージNゲージ理論について](/files/note/Baryons_in_1N_expamsion.pdf)
+  * [E.Witten, Nucl. Phys. B 160 (1979) 57-115](https://www.sciencedirect.com/science/article/abs/pii/0550321379902323)のレビュー。
+
+
 * [パイオン交換ポテンシャル・カイラル凝縮について](/files/note/one_pion_exchange_note.pdf)
 
 
