@@ -16,7 +16,7 @@ redirect_from:
 
 
 * [Fradkin-Shenker模型について](/files/note/Stet_mech_final.pdf)
-  * 2024夏セメの統計力学の授業での期末課題として[E. Fradkin and S. H. Shenker. Phys. Rev. D 19, 3682 (1979)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.19.3682)のレビューをした際のプレゼン資料。
+  * [E. Fradkin and S. H. Shenker. Phys. Rev. D 19, 3682 (1979)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.19.3682)のレビュー。
   * 数式にはパワポ用のTeXアドイン[IguanaTeX](https://github.com/Jonathan-LeRoux/IguanaTex)を初めて使ってみました。TeXClipから解放され、作業が大幅に効率化された気がします。
 
 
