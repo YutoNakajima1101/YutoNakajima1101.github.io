@@ -45,12 +45,16 @@ Internship & Programs
 
 Awards
 ======
+* Presentation Award（優秀発表賞）
+  * March 2026, Online
+  * [Theoretical Physics Student Seminar 2026（理論物理学生セミナー2026）](https://indico.global/event/15508/)
+
 * Oral Presentation Award（分科会優秀発表賞）& Poster Presentation Award（ポスター優秀発表賞）
-  * Aug 2025
-  * Condensed Matter Physics Summer School 2025（第70回物性若手夏の学校）
+  * Aug 2025, Shiga, Japan
+  * [Condensed Matter Physics Summer School 2025（第70回物性若手夏の学校）](https://cmpss.jp/ss2025/)
 
 * Student Presentation Award（日本物理学会 学生優秀発表賞）
-  * Mar 2023
+  * Mar 2023, Online
   * JPS Spring Meeting 2023（日本物理学会春季大会）
 
 
