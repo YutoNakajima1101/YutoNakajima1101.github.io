@@ -7,6 +7,9 @@ redirect_from:
   - /resume
 ---
 
+* [Clifford代数のungraded/graded表現とフェルミオンパリティ](/files/note/Clifford_alg_rep.pdf)（日本語）
+  * Clifford代数をマヨラナフェルミオンの演算子として使うときのためのおぼえ書きです
+
 * [分数量子ホール効果ノート](/files/note/fractional_quantum_hall_note.pdf)（日本語）
   * オリジナル版は、[物理学アドベントカレンダー2025](https://adventar.org/calendars/11490)の12月9日(火)の記事『分数量子ホール系からはじめるTQFT/CFT対応』として投稿したものです。
 
