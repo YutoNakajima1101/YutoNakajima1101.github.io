@@ -36,11 +36,3 @@ redirect_from:
 
 * [Lie微分と共変微分について](/files/note/lie_derivative_note.pdf)（日本語）
 
-
-* [３次元場の理論の双対性について](/files/note/duality_note.pdf)（日本語）
-  * 相当書きかけですが、自分にプレッシャーをかけるためにあえて公開しています。
-
-
-* [系登録自主ガイダンス・物理科学系](/files/note/keitoroku.pdf)（2024/02）（日本語）
-  * ４回生のとき、京大の理学部２回生向けに系登録について話したときのスライドです。
-
