@@ -9,17 +9,17 @@ redirect_from:
 
 
 * [自然さ、くりこみ群、フェルミ液体](/files/note/naturalness.pdf)（日本語）
-  * Polchinski-Shankerのフェルミ液体のくりこみ群の議論をまとめたものです。
+  * Polchinski-Shankerのフェルミ液体のくりこみ群の議論。
 
 * [Clifford代数のungraded/graded表現とフェルミオンパリティ](/files/note/Clifford_alg_rep.pdf)（日本語）
-  * Clifford代数をマヨラナフェルミオンの演算子として使うときのためのおぼえ書きです。
+  * Clifford代数をマヨラナフェルミオンの演算子として使うときのためのおぼえ書き。
 
 * [分数量子ホール効果ノート](/files/note/fractional_quantum_hall_note.pdf)（日本語）
   * オリジナル版は、[物理学アドベントカレンダー2025](https://adventar.org/calendars/11490)の12月9日(火)の記事『分数量子ホール系からはじめるTQFT/CFT対応』として投稿したものです。
 
 
 * [３次元チャーン・サイモンズ理論でのフレーミングアノマリーについて](/files/note/Framing_anomaly_note.pdf)（英語）
-  * 概要は[note](https://note.com/hadron_kyoto/n/nc5c1f78568dd)にあります。  
+  * 概要は[note](https://note.com/hadron_kyoto/n/nc5c1f78568dd)
 
 
 * [Fradkin-Shenker模型について](/files/note/Stet_mech_final.pdf)（英語）
