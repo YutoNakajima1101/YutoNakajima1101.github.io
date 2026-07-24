@@ -74,9 +74,12 @@ Talks
 
 Scholarships & Fellowships
 ======
+* JASSO Student Exchange Support Program（日本学生支援機構　海外留学支援制度（大学院学位取得型））
+  * Sep 2026 – Aug 2029
+  * The full amount of Tuition & Medical Insurance + Living costs + Others
+
 * Funai Overseas Scholarship（船井情報科学振興財団奨学金）
   * Sep 2024 – Aug 2026
-  * The full amount of Tuition & Medical Insurance + Living costs + Others
 
 * Fuji Seal Foundation Scholarship（フジシール財団奨学金）
   * Apr 2022 – Mar 2024
