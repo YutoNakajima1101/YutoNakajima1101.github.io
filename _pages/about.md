@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 <img src="/images/profile_newnew.jpg" width="200" style="float: right; margin-left: 20px;">
-A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
+A third-year Ph.D. student (2024 Fall-) at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 **Supervisor:** Prof. Dr. Hart Goldman
 
-**Office:** Room 201-03, John T. Tate Hall
+**Office:** Room 301-07, John T. Tate Hall
 
 **Email:** nakaj021_at_umn.edu
 <div style="clear: both;"></div> 
@@ -21,15 +21,14 @@ A second-year Ph.D. student at [University of Minnesota, Twin Cities](https://cs
 Research Interest
 ======
 I am interested in the exotic quantum phases that emerge in **strongly correlated electron systems**. 
-My research focuses on uncovering the universal properties of these many-body states, such as **topological order** and **symmetry fractionalization**, using the framework of topological field theory. 
+My research focuses on uncovering the universal properties of these many-body states, such as **topological order** and **fractionalization**, using the framework of field theory.
 
 By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
 Keywords:
-- **Fractional quantum Hall effect**
+- **Fractional Chern insulator (FCI) & Fractional anomalous Hall effect (FQAH)**
 - **Anyon, fractional statistics**
-- **Topological quantum field theory (TQFT)**
-- **Modular tensor category**
+- **Topological quantum field theory (TQFT), Modular tensor category (MTC)**
 - **Duality** of field theory
 
 <!--
