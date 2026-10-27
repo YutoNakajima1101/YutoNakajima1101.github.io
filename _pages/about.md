@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/profile_newnew.jpg" width="200" style="float: right; margin-left: 20px;">
+<img src="/images/profile_newnew.jpg" alt="Yuto Nakajima" width="200" style="float: right; margin-left: 20px;">
 A third-year Ph.D. student (2024 Fall-) at [University of Minnesota, Twin Cities](https://cse.umn.edu/physics)
 
 **Supervisor:** Prof. Dr. Hart Goldman
@@ -26,7 +26,7 @@ My research focuses on uncovering the universal properties of these many-body st
 By exploring the macroscopic responses and dynamics of emergent excitations, I aim to establish fundamental theories that describe novel states of matter and their potential applications in future quantum technologies.
 
 Keywords:
-- **Fractional Chern insulator (FCI) & Fractional anomalous Hall effect (FQAH)**
+- **Fractional Chern insulator (FCI) & Fractional quantum anomalous Hall effect (FQAH)**
 - **Anyon, fractional statistics**
 - **Topological quantum field theory (TQFT), Modular tensor category (MTC)**
 - **Duality** of field theory

@@ -1,5 +1,5 @@
 ---
-title: "From the modular tensor category to the themodynamics of dilute anyon gases"
+title: "From the modular tensor category to the thermodynamics of dilute anyon gases"
 collection: talks
 type: "Talk & Poster"
 permalink: /talks/2025-07-30-natsugaku

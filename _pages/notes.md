@@ -3,13 +3,11 @@ layout: archive
 title: "Notes"
 permalink: /notes/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 
 * [自然さ、くりこみ群、フェルミ液体](/files/note/naturalness.pdf)（日本語）
-  * Polchinski-Shankerのフェルミ液体のくりこみ群の議論。
+  * Polchinski–Shankarのフェルミ液体のくりこみ群の議論。
 
 * [Clifford代数のungraded/graded表現とフェルミオンパリティ](/files/note/Clifford_alg_rep.pdf)（日本語）
   * Clifford代数をマヨラナフェルミオンの演算子として使うときのためのおぼえ書き。

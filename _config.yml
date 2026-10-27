@@ -166,6 +166,17 @@ include:
   - _pages
   - files
 exclude:
+  # Unused template examples; retain sources without publishing them.
+  - _pages/archive-layout-with-content.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/portfolio.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/talkmap.html
+  - _portfolio
+  - _teaching
+  - talkmap
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

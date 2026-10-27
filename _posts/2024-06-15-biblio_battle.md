@@ -7,4 +7,4 @@ tags:
 ---
 
 京都駅近くの理系コンセプトバー[「理系とーくバー」](https://rikei-talk.com/bar/)さんで、一日店長企画をさせていただきました。
-非常に盛り上がったので、[オープニングスライド](files/biblio_battle_op.pdf)をおいておきます。
+非常に盛り上がったので、[オープニングスライド](/files/biblio_battle_op.pdf)をおいておきます。

@@ -20,14 +20,14 @@ Education
 * Yukawa Institute for Theoretical Physics; YITP（京都大学基礎物理学研究所）
   * Apr 2024 – Aug 2024
   * Kyoto, Japan
-  * Enrolled as a master student and left after five months
+  * Enrolled as a master's student and left after five months
 
 * Kyoto University（京都大学）
   * Apr 2020 – Mar 2024
   * Kyoto, Japan
   * Bachelor of Science in Physics
 
-* Nara high school（奈良県立奈良高等学校）
+* Nara High School（奈良県立奈良高等学校）
   * Apr 2017 - Mar 2020
   * Nara, Japan
 
@@ -55,7 +55,7 @@ Awards
 
 * Student Presentation Award（日本物理学会 学生優秀発表賞）
   * Mar 2023, Online
-  * JPS Spring Meeting 2023（日本物理学会春季大会）
+  * [JPS Spring Meeting 2023（日本物理学会春季大会）](https://www.jps.or.jp/activities/awards/gakusei/2023_student_presentation_award.php)
 
 
 Publications
